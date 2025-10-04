@@ -89,7 +89,7 @@ FireflyMC/
 ## 🌐 在线访问
 
 项目已部署到GitHub Pages，可通过以下地址访问：
-[FireflyMC 整合包网站](https://Sakura520222.github.io/fireflymc)
+[FireflyMC 整合包网站](https://sakura520222.github.io/fireflymc/)
 
 ## 📄 许可证
 

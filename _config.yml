@@ -1,0 +1,15 @@
+# GitHub Pages 配置
+title: FireflyMC - Minecraft 1.21.1 NeoForge 整合包
+description: 一个清新风格的Minecraft 1.21.1 NeoForge整合包，包含实用模组、精美光影与材质包
+baseurl: "/fireflymc" # 仓库名称
+url: "https://sakura520222.github.io" # 你的GitHub用户名
+
+# 主题设置
+theme: jekyll-theme-cayman
+
+# 构建排除文件
+exclude:
+  - .github/
+  - .gitignore
+  - README.md
+  - _config.yml
