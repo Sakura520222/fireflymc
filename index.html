@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4CAF50">
+    <meta name="description" content="FireflyMC - Minecraft 1.21.1 NeoForge 整合包，清新风格界面，包含实用模组、精美光影与材质包">
+    <title>FireflyMC 1.21.1 NeoForge 整合包</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-fire logo-icon"></i>
+                <span class="logo-text">FireflyMC</span>
+            </a>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#mods">模组</a></li>
+                <li class="nav-link"><a href="#shaders">光影</a></li>
+                <li class="nav-link"><a href="#textures">材质</a></li>
+                <li class="nav-link"><a href="#server">服务器</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">FireflyMC</h1>
+            <p class="hero-subtitle">基于 Minecraft 1.21.1 + NeoForge 构建，兼顾体验与性能</p>
+            <div class="cta-buttons">
+                <a href="#server" class="btn btn-primary">
+                    <i class="fas fa-server"></i> 加入服务器
+                </a>
+                <a href="https://mc.firefly520.top/FireflyMC-1.21.1-NeoForge.zip" class="btn btn-secondary" download>
+                    <i class="fas fa-download"></i> 下载整合包
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要内容区 -->
+    <main class="main-content">
+        <!-- 内置模组区域 -->
+        <section class="section" id="mods">
+            <div class="section-header">
+                <i class="fas fa-cubes section-icon"></i>
+                <h2 class="section-title">内置模组</h2>
+            </div>
+            
+            <!-- 功能增强模组 -->
+            <h3 style="color: var(--primary); margin-bottom: var(--space-md); font-size: var(--text-xl);">功能增强</h3>
+            <div class="mod-grid">
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-cow mod-icon"></i>
+                        <h4 class="mod-name">动物喂食槽</h4>
+                    </div>
+                    <p class="mod-desc">便捷养殖管理，自动喂养动物</p>
+                    <span class="mod-id">animal_feeding_trough-1.1.2+1.21-neoforge.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-hammer mod-icon"></i>
+                        <h4 class="mod-name">铁砧无上限</h4>
+                    </div>
+                    <p class="mod-desc">解除修复等级限制，自由修复装备</p>
+                    <span class="mod-id">AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-seedling mod-icon"></i>
+                        <h4 class="mod-name">右键收割</h4>
+                    </div>
+                    <p class="mod-desc">快速收割作物，提升农业效率</p>
+                    <span class="mod-id">rightclickharvest-neoforge-4.5.3+1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-shield-alt mod-icon"></i>
+                        <h4 class="mod-name">村民守卫</h4>
+                    </div>
+                    <p class="mod-desc">生成守卫保护村民，增强村庄安全</p>
+                    <span class="mod-id">guardvillagers-2.3.2-1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-skull mod-icon"></i>
+                        <h4 class="mod-name">灾厄入侵</h4>
+                    </div>
+                    <p class="mod-desc">新增敌对生物与挑战，丰富游戏内容</p>
+                    <span class="mod-id">IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-gravestone mod-icon"></i>
+                        <h4 class="mod-name">墓碑</h4>
+                    </div>
+                    <p class="mod-desc">死亡后保留物品，减少损失</p>
+                    <span class="mod-id">gravestone-neoforge-1.21.1-1.0.32.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-map-marked-alt mod-icon"></i>
+                        <h4 class="mod-name">探索增强</h4>
+                    </div>
+                    <p class="mod-desc">新增遗迹与探索目标，丰富冒险内容</p>
+                    <span class="mod-id">Explorify v1.6.2 f10-48.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-landmark mod-icon"></i>
+                        <h4 class="mod-name">结构生成</h4>
+                    </div>
+                    <p class="mod-desc">丰富世界结构，增加探索乐趣</p>
+                    <span class="mod-id">Structory_1.21.x_v1.3.11.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-tree mod-icon"></i>
+                        <h4 class="mod-name">暮色森林</h4>
+                    </div>
+                    <p class="mod-desc">经典维度冒险，探索神秘世界</p>
+                    <span class="mod-id">twilightforest-1.21.1-4.7.3196-universal.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-users mod-icon"></i>
+                        <h4 class="mod-name">开放派系与领地</h4>
+                    </div>
+                    <p class="mod-desc">派系系统与领地保护功能</p>
+                    <span class="mod-id">open-parties-and-claims-neoforge-1.21.1-0.24.0.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-mountain mod-icon"></i>
+                        <h4 class="mod-name">FTB Ultimine</h4>
+                    </div>
+                    <p class="mod-desc">批量挖掘工具，提升采集效率</p>
+                    <span class="mod-id">ftb-ultimine-neoforge-2101.1.6.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-trophy mod-icon"></i>
+                        <h4 class="mod-name">FTB Ranks</h4>
+                    </div>
+                    <p class="mod-desc">玩家等级与权限系统</p>
+                    <span class="mod-id">ftb-ranks-neoforge-2101.1.3.jar</span>
+                </div>
+            </div>
+            
+            <!-- 性能优化模组 -->
+            <h3 style="color: var(--primary); margin: var(--space-xl) 0 var(--space-md); font-size: var(--text-xl);">性能优化</h3>
+            <div class="mod-grid">
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-tachometer-alt mod-icon"></i>
+                        <h4 class="mod-name">Sodium</h4>
+                    </div>
+                    <p class="mod-desc">高性能渲染优化，显著提升帧率</p>
+                    <span class="mod-id">sodium-neoforge-0.6.13+mc1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-eye mod-icon"></i>
+                        <h4 class="mod-name">Iris</h4>
+                    </div>
+                    <p class="mod-desc">光影加载器，支持现代光影效果</p>
+                    <span class="mod-id">iris-neoforge-1.8.12+mc1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-leaf mod-icon"></i>
+                        <h4 class="mod-name">快速落叶</h4>
+                    </div>
+                    <p class="mod-desc">加速树叶腐烂过程，优化游戏体验</p>
+                    <span class="mod-id">fastleafdecay-35.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-cube mod-icon"></i>
+                        <h4 class="mod-name">实体剔除</h4>
+                    </div>
+                    <p class="mod-desc">优化渲染性能，减少不必要的实体渲染</p>
+                    <span class="mod-id">entityculling-neoforge-1.8.2-mc1.21.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-memory mod-icon"></i>
+                        <h4 class="mod-name">现代修复</h4>
+                    </div>
+                    <p class="mod-desc">综合性能优化，修复各种性能问题</p>
+                    <span class="mod-id">modernfix-neoforge-5.24.3+mc1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-microchip mod-icon"></i>
+                        <h4 class="mod-name">FerriteCore</h4>
+                    </div>
+                    <p class="mod-desc">内存优化，减少内存占用</p>
+                    <span class="mod-id">ferritecore-7.0.2-neoforge.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-bolt mod-icon"></i>
+                        <h4 class="mod-name">Sodium Extra</h4>
+                    </div>
+                    <p class="mod-desc">Sodium扩展功能，更多性能选项</p>
+                    <span class="mod-id">sodium-extra-neoforge-0.6.0+mc1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-lightbulb mod-icon"></i>
+                        <h4 class="mod-name">动态光源</h4>
+                    </div>
+                    <p class="mod-desc">Sodium动态光源支持</p>
+                    <span class="mod-id">sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-sliders-h mod-icon"></i>
+                        <h4 class="mod-name">Sodium选项API</h4>
+                    </div>
+                    <p class="mod-desc">Sodium配置选项扩展</p>
+                    <span class="mod-id">sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-cogs mod-icon"></i>
+                        <h4 class="mod-name">Clumps</h4>
+                    </div>
+                    <p class="mod-desc">经验球合并优化，减少实体数量</p>
+                    <span class="mod-id">Clumps-neoforge-1.21.1-19.0.0.1.jar</span>
+                </div>
+            </div>
+            
+            <!-- 界面与辅助模组 -->
+            <h3 style="color: var(--primary); margin: var(--space-xl) 0 var(--space-md); font-size: var(--text-xl);">界面与辅助</h3>
+            <div class="mod-grid">
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-apple-alt mod-icon"></i>
+                        <h4 class="mod-name">苹果皮</h4>
+                    </div>
+                    <p class="mod-desc">显示食物饱和度，方便饮食管理</p>
+                    <span class="mod-id">appleskin-neoforge-mc1.21-3.0.7.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-info-circle mod-icon"></i>
+                        <h4 class="mod-name">Jade 信息显示</h4>
+                    </div>
+                    <p class="mod-desc">查看方块/实体详情，方便信息获取</p>
+                    <span class="mod-id">Jade-1.21.1-NeoForge-15.10.2.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-book mod-icon"></i>
+                        <h4 class="mod-name">JEI 物品浏览器</h4>
+                    </div>
+                    <p class="mod-desc">查询合成配方，方便制作物品</p>
+                    <span class="mod-id">jei-1.21.1-neoforge-19.22.0.315.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-trophy mod-icon"></i>
+                        <h4 class="mod-name">更好的成就</h4>
+                    </div>
+                    <p class="mod-desc">优化成就界面，美观实用</p>
+                    <span class="mod-id">BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-box-open mod-icon"></i>
+                        <h4 class="mod-name">物品管理器</h4>
+                    </div>
+                    <p class="mod-desc">智能整理背包，提升物品管理效率</p>
+                    <span class="mod-id">InventoryProfilesNext-neoforge-1.21-2.1.10.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-map mod-icon"></i>
+                        <h4 class="mod-name">Xaero小地图</h4>
+                    </div>
+                    <p class="mod-desc">便捷小地图导航，显示周围环境</p>
+                    <span class="mod-id">Xaeros_Minimap_25.2.10_NeoForge_1.21.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-globe mod-icon"></i>
+                        <h4 class="mod-name">Xaero世界地图</h4>
+                    </div>
+                    <p class="mod-desc">全局世界地图，记录探索轨迹</p>
+                    <span class="mod-id">XaerosWorldMap_1.39.4_NeoForge_1.21.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-mouse-pointer mod-icon"></i>
+                        <h4 class="mod-name">鼠标优化</h4>
+                    </div>
+                    <p class="mod-desc">鼠标操作优化，提升操作体验</p>
+                    <span class="mod-id">MouseTweaks-neoforge-mc1.21-2.26.1.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-search mod-icon"></i>
+                        <h4 class="mod-name">搜索增强</h4>
+                    </div>
+                    <p class="mod-desc">增强游戏内搜索功能</p>
+                    <span class="mod-id">Searchables-neoforge-1.21.1-1.0.2.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-sliders-h mod-icon"></i>
+                        <h4 class="mod-name">控制优化</h4>
+                    </div>
+                    <p class="mod-desc">键位绑定与操作优化</p>
+                    <span class="mod-id">Controlling-neoforge-1.21.1-19.0.5.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-comments mod-icon"></i>
+                        <h4 class="mod-name">聊天头像</h4>
+                    </div>
+                    <p class="mod-desc">聊天界面显示玩家头像</p>
+                    <span class="mod-id">chat_heads-0.13.18-neoforge-1.21.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-user-circle mod-icon"></i>
+                        <h4 class="mod-name">皮肤3D层</h4>
+                    </div>
+                    <p class="mod-desc">3D皮肤层渲染优化</p>
+                    <span class="mod-id">skinlayers3d-neoforge-1.8.2-mc1.21.jar</span>
+                </div>
+            </div>
+            
+            <!-- 技术模组 -->
+            <h3 style="color: var(--primary); margin: var(--space-xl) 0 var(--space-md); font-size: var(--text-xl);">技术模组</h3>
+            <div class="mod-grid">
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-code mod-icon"></i>
+                        <h4 class="mod-name">Architectury</h4>
+                    </div>
+                    <p class="mod-desc">跨平台模组开发框架</p>
+                    <span class="mod-id">architectury-13.0.8-neoforge.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-book mod-icon"></i>
+                        <h4 class="mod-name">Bookshelf</h4>
+                    </div>
+                    <p class="mod-desc">模组开发基础库</p>
+                    <span class="mod-id">bookshelf-neoforge-1.21.1-21.1.67.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-cogs mod-icon"></i>
+                        <h4 class="mod-name">Cloth Config</h4>
+                    </div>
+                    <p class="mod-desc">配置界面框架</p>
+                    <span class="mod-id">cloth-config-15.0.140-neoforge.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-dragon mod-icon"></i>
+                        <h4 class="mod-name">GeckoLib</h4>
+                    </div>
+                    <p class="mod-desc">动画库支持</p>
+                    <span class="mod-id">geckolib-neoforge-1.21.1-4.7.6.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-language mod-icon"></i>
+                        <h4 class="mod-name">I18n更新</h4>
+                    </div>
+                    <p class="mod-desc">语言文件自动更新</p>
+                    <span class="mod-id">I18nUpdateMod-3.6.2-all.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-puzzle-piece mod-icon"></i>
+                        <h4 class="mod-name">PuzzlesLib</h4>
+                    </div>
+                    <p class="mod-desc">模组开发工具库</p>
+                    <span class="mod-id">PuzzlesLib-v21.1.36-1.21.1-NeoForge.jar</span>
+                </div>
+                
+                <div class="mod-card">
+                    <div class="mod-header">
+                        <i class="fas fa-code-branch mod-icon"></i>
+                        <h4 class="mod-name">FTB Library</h4>
+                    </div>
+                    <p class="mod-desc">FTB模组库</p>
+                    <span class="mod-id">ftb-library-neoforge-2101.1.17.jar</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 内置光影区域 -->
+        <section class="section" id="shaders">
+            <div class="section-header">
+                <i class="fas fa-sun section-icon"></i>
+                <h2 class="section-title">内置光影</h2>
+            </div>
+            
+            <div class="shader-grid">
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-sun shader-icon"></i>
+                        <h4 class="shader-name">BSL</h4>
+                    </div>
+                    <p class="shader-desc">经典光影，平衡性能与画质</p>
+                    <span class="shader-id">BSL_v10.0.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-cloud-sun shader-icon"></i>
+                        <h4 class="shader-name">Complementary Reimagined</h4>
+                    </div>
+                    <p class="shader-desc">现代光影，极致视觉效果</p>
+                    <span class="shader-id">ComplementaryReimagined_r5.5.1.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-cloud-sun shader-icon"></i>
+                        <h4 class="shader-name">Complementary Unbound</h4>
+                    </div>
+                    <p class="shader-desc">无限制版本，更多自定义选项</p>
+                    <span class="shader-id">ComplementaryUnbound_r5.5.1.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-moon shader-icon"></i>
+                        <h4 class="shader-name">Chocapic13 V6 Lite</h4>
+                    </div>
+                    <p class="shader-desc">轻量光影，适合低配设备</p>
+                    <span class="shader-id">Chocapic13 V6 Lite（低）.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-moon shader-icon"></i>
+                        <h4 class="shader-name">Chocapic13 V7.1 Lite</h4>
+                    </div>
+                    <p class="shader-desc">新版轻量光影，性能优化</p>
+                    <span class="shader-id">Chocapic13 V7.1 Lite.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-moon shader-icon"></i>
+                        <h4 class="shader-name">Chocapic13 V7.1 Lite（最低）</h4>
+                    </div>
+                    <p class="shader-desc">最低配置版本，极致性能</p>
+                    <span class="shader-id">Chocapic13 V7.1 Lite（最低）.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-star shader-icon"></i>
+                        <h4 class="shader-name">Solas</h4>
+                    </div>
+                    <p class="shader-desc">艺术风格光影，独特视觉体验</p>
+                    <span class="shader-id">Solas Shader V2.9b.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-bolt shader-icon"></i>
+                        <h4 class="shader-name">iterationT</h4>
+                    </div>
+                    <p class="shader-desc">技术测试光影，实验性功能</p>
+                    <span class="shader-id">iterationT 3.0.0.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-paint-brush shader-icon"></i>
+                        <h4 class="shader-name">MakeUp UltraFast</h4>
+                    </div>
+                    <p class="shader-desc">超快光影，极致性能优化</p>
+                    <span class="shader-id">MakeUp-UltraFast-9.3d.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-lightbulb shader-icon"></i>
+                        <h4 class="shader-name">Photon</h4>
+                    </div>
+                    <p class="shader-desc">光子光影，现代光照系统</p>
+                    <span class="shader-id">photon_v1.2a.zip</span>
+                </div>
+                
+                <div class="shader-card">
+                    <div class="shader-header">
+                        <i class="fas fa-cube shader-icon"></i>
+                        <h4 class="shader-name">Rethinking Voxels</h4>
+                    </div>
+                    <p class="shader-desc">体素重思考，独特渲染风格</p>
+                    <span class="shader-id">rethinking-voxels_r0.1-beta9.zip</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 内置材质包区域 -->
+        <section class="section" id="textures">
+            <div class="section-header">
+                <i class="fas fa-palette section-icon"></i>
+                <h2 class="section-title">内置材质包</h2>
+            </div>
+            
+            <div class="texture-grid">
+                <div class="texture-card">
+                    <div class="texture-header">
+                        <i class="fas fa-cloud texture-icon"></i>
+                        <h4 class="texture-name">动态天空</h4>
+                    </div>
+                    <p class="texture-desc">增强天空效果，更真实的天气系统</p>
+                    <span class="texture-id">Dramatic Skys Demo 1.5.3.35.zip</span>
+                </div>
+                
+                <div class="texture-card">
+                    <div class="texture-header">
+                        <i class="fas fa-running texture-icon"></i>
+                        <h4 class="texture-name">流畅动画</h4>
+                    </div>
+                    <p class="texture-desc">优化角色动画，更流畅的动作表现</p>
+                    <span class="texture-id">FreshAnimations_v1.9.2.zip</span>
+                </div>
+                
+                <div class="texture-card">
+                    <div class="texture-header">
+                        <i class="fas fa-font texture-icon"></i>
+                        <h4 class="texture-name">平滑字体</h4>
+                    </div>
+                    <p class="texture-desc">优化字体渲染，提升文字可读性</p>
+                    <span class="texture-id">SmoothFont_1.21.zip</span>
+                </div>
+                
+                <div class="texture-card">
+                    <div class="texture-header">
+                        <i class="fas fa-language texture-icon"></i>
+                        <h4 class="texture-name">模组语言包</h4>
+                    </div>
+                    <p class="texture-desc">汉化模组内容，更好的中文支持</p>
+                    <span class="texture-id">Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip</span>
+                </div>
+                
+                <div class="texture-card">
+                    <div class="texture-header">
+                        <i class="fas fa-language texture-icon"></i>
+                        <h4 class="texture-name">Sodium翻译</h4>
+                    </div>
+                    <p class="texture-desc">Sodium模组汉化，中文界面支持</p>
+                    <span class="texture-id">SodiumTranslations.zip</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务器信息区域 -->
+        <section class="section" id="server">
+            <div class="section-header">
+                <i class="fas fa-globe section-icon"></i>
+                <h2 class="section-title">服务器信息</h2>
+            </div>
+            
+            <div class="server-info">
+                <h3 class="server-title">加入我们的服务器</h3>
+                <div class="server-address" onclick="copyServerAddress()">
+                    gm.rainplay.cn:32772
+                </div>
+                <p style="color: var(--text-secondary); margin-top: var(--space-md);">点击上方地址复制到剪贴板</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">FireflyMC - Minecraft 1.21.1 NeoForge 整合包</p>
+            <p class="footer-text">© 2025 FireflyMC . 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
